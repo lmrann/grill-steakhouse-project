@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Grill SteakHouse is the best steakhouse in Bangladesh, where culinary excellence meets delectable flavors. Savor premium-quality steaks, expertly grilled to perfection by our talented chefs."
+    />
+
+    <title>Grill Steakhouse &mdash; No. 1 Steak restaurant in Bangladesh</title>
+
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-querie.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:wght@600&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <picture fetchpriority="high" rel="preload">
+          <source srcset="img/hero-img.webp" type="image/webp" />
+          <source srcset="img/hero-img.jpg" type="image/jpg" />
+          <img
+            class="hero-img"
+            src="img/hero-img.jpg"
+            alt="Hero image containing steak"
+            fetchpriority="high"
+          />
+        </picture>
+
+        <div class="nav">
+          <a href="#" class="nav-logo-link">
+            <img
+              alt="steakhouse logo"
+              class="nav-logo"
+              src="img/nav-logo.png"
+              fetchpriority="high"
+            />
+          </a>
+          <nav class="main-nav">
+            <ul class="nav-list">
+              <li><a href="#about" class="main-nav-link">About Us</a></li>
+              <li><a href="#menu" class="main-nav-link">Menu</a></li>
+              <li><a href="#guests" class="main-nav-link">Our Guests</a></li>
+              <li><a href="#gallery" class="main-nav-link">Gallery</a></li>
+              <li>
+                <a href="#reservation" class="main-nav-link main-nav-cta-link"
+                  >Make Reservation</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <button class="btn-mobile-nav">
+            <i class="icon-mobile-nav ph ph-list" name="menu-outline"></i>
+            <i class="icon-mobile-nav ph ph-x" name="close-outline"></i>
+          </button>
+        </div>
+
+        <div class="header-container container">
+          <div class="header-text-container">
+            <h1 class="hero-heading-text">
+              Bangladesh's Finest <span>Steakhouse</span> - Savor the Perfect
+              Steak experience!
+            </h1>
+          </div>
+
+          <div class="header-btn-box">
+            <a class="btn btn-cta" href="#reservation">Book a Table</a>
+            <a class="btn btn-menu" href="#menu">Check our Menu</a>
+          </div>
+
+          <div class="ratings-box">
+            <p class="ratings-text">4.6</p>
+            <div class="ratings-inner-box">
+              <div class="stars" fetchpriority="high" rel="preload">
+                <i class="star-icon ph-fill ph-star"></i>
+                <i class="star-icon ph-fill ph-star"></i>
+                <i class="star-icon ph-fill ph-star"></i>
+                <i class="star-icon ph-fill ph-star"></i>
+                <i class="star-icon ph-fill ph-star-half"></i>
+              </div>
+              <p class="ratings-side-text">10,000+ 5 stars on Google</p>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section id="about" class="section-about container">
+        <h2 class="section-heading">
+          Welcome to Grill SteakHouse
+          <hr class="border-bottom" />
+        </h2>
+
+        <div class="about-container container">
+          <div class="about-img-box about-img-box--1">
+            <img class="about-img" alt="restaurant" src="img/about-1.jpg" />
+          </div>
+          <div class="about-text-box about-text-box--1">
+            <h3 class="about-heading"><span>About Us</span></h3>
+            <p class="about-text">
+              Grill SteakHouse has been the ultimate destination for steak
+              lovers of Dhaka. We take immense pride in being the most popular
+              restaurant for steaks. Our commitment to delivering the tastiest
+              steaks combined with a luxurious environment has earned us the
+              reputation of being a go-to destination for both locals and
+              visitors alike.
+            </p>
+          </div>
+
+          <div class="about-text-box about-text-box--2">
+            <h3 class="about-heading"><span>Our Story</span></h3>
+            <p class="about-text">
+              The Steak House was founded in 2016 with a simple yet ambitious
+              vision to provide the people of Dhaka with an unforgettable dining
+              experience. From day one, we set out to redefine the steak
+              experience in Bangladesh, and our relentless dedication to quality
+              and excellence has been the key to our success.
+            </p>
+          </div>
+          <div class="about-img-box about-img-box--2">
+            <img class="about-img" alt="restaurant" src="img/about-2.jpg" />
+          </div>
+
+          <div class="about-img-box about-img-box--3">
+            <img class="about-img" alt="restaurant" src="img/about-3.jpg" />
+          </div>
+          <div class="about-text-box about-text-box--3">
+            <h3 class="about-heading"><span>Secret of our Steaks</span></h3>
+            <p class="about-text">
+              At the heart of our success lies the exceptional quality of our
+              steaks. We source only the finest cuts of meat from trusted
+              suppliers, ensuring that every bite is tender, juicy, and bursting
+              with flavor. Our skilled chefs masterfully craft each steak to
+              perfection to guarantee an unforgettable dining experience.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="menu" class="section-menu">
+        <h2 class="section-heading menu-heading container">
+          <span
+            >Menu
+            <hr class="border-bottom"
+          /></span>
+        </h2>
+
+        <h3 class="menu-sub-heading menu-sub-heading--platters container">
+          <span>Platters</span>
+        </h3>
+
+        <div class="platter-box">
+          <div class="platter-inner-box">
+            <button class="platter-btn platter-btn--left">
+              <i class="platter-btn-icon ph-bold ph-caret-left"></i>
+            </button>
+
+            <button class="platter-btn platter-btn--right">
+              <i class="platter-btn-icon ph-bold ph-caret-right"></i>
+            </button>
+
+            <div class="platters">
+              <div class="platter platter-1">
+                <div class="img-box">
+                  <img
+                    class="platter-img"
+                    src="img/platter-3.jpg"
+                    alt="Brisket steak"
+                  />
+                </div>
+
+                <div class="heading-box">
+                  <p class="platter-name">Premium Brisket Steak</p>
+                  <p class="platter-info">
+                    A true Texas beauty, the Brisket is smoked for more than 6
+                    hours resulting in amazing flavor and true tenderness that
+                    melts in mouth.
+                  </p>
+                </div>
+
+                <div class="price-box">
+                  <div class="price-label price-label--main">
+                    <p class="price">
+                      TK <span class="price-number">4585</span>
+                      <span class="amount">(1000g)</span>
+                    </p>
+                  </div>
+
+                  <div class="price-label">
+                    <p class="price">
+                      TK <span class="price-number">2585</span>
+                      <span class="amount">(500g)</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="platter platter-2">
+                <div class="img-box">
+                  <img
+                    class="platter-img"
+                    src="img/platter-2.jpg"
+                    alt="Tomahawk steak"
+                  />
+                </div>
+
+                <div class="heading-box">
+                  <p class="platter-name">Classy Tomahawk Steak</p>
+                  <p class="platter-info">
+                    One of a kind unique bone in rib steak resembling The
+                    Tomahawk Axe. Served with Mexican Rice and Potato Wedges.
+                  </p>
+                </div>
+
+                <div class="price-box">
+                  <div class="price-label price-label--main">
+                    <p class="price">
+                      TK <span class="price-number">3145</span>
+                      <span class="amount">(500g)</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="platter platter-3">
+                <div class="img-box">
+                  <img
+                    class="platter-img"
+                    src="img/platter-1.jpg"
+                    alt="T-bone steak"
+                  />
+                </div>
+
+                <div class="heading-box">
+                  <p class="platter-name">Premium T-Bone Steak</p>
+                  <p class="platter-info">
+                    Premium T-Bone Steak with generous marbling served with
+                    Mexican Rice, Potato Wedges and Vegetable Sautee.
+                  </p>
+                </div>
+
+                <div class="price-box">
+                  <div class="price-label price-label--main">
+                    <p class="price">
+                      TK <span class="price-number">2485</span>
+                      <span class="amount">(350g)</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="menu-sub-heading container"><span>Tidbits</span></h3>
+
+        <div class="menu-container container">
+          <div class="menu-item">
+            <div class="menu-img-box">
+              <img
+                class="menu-img"
+                alt="French fries"
+                src="img/tidbits-1.jpg"
+              />
+            </div>
+            <div class="menu-text-box">
+              <h4 class="menu-item-name">French Fries</h4>
+              <p class="menu-item-description">
+                Golden crisp Potato Wedges topped with Chicken Chorizo Sausage
+              </p>
+            </div>
+            <div class="menu-price-box"><p class="menu-price">385 TK</p></div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-img-box">
+              <img
+                class="menu-img"
+                alt="Tornado potatoes"
+                src="img/tidbits-2.jpg"
+              />
+            </div>
+            <div class="menu-text-box">
+              <h4 class="menu-item-name">Tornado Potatoes</h4>
+              <p class="menu-item-description">
+                Twisted Chicken Franks with Honey Mustard Dip
+              </p>
+            </div>
+            <div class="menu-price-box"><p class="menu-price">295 TK</p></div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-img-box">
+              <img class="menu-img" alt="Poutine" src="img/tidbits-3.jpg" />
+            </div>
+            <div class="menu-text-box">
+              <h4 class="menu-item-name">Poutine</h4>
+              <p class="menu-item-description">
+                Crispy Potato Fries baked with Beef & Whole Milk Mozzarella
+              </p>
+            </div>
+            <div class="menu-price-box"><p class="menu-price">445 TK</p></div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-img-box">
+              <img
+                class="menu-img"
+                alt="Chicken Wings"
+                src="img/tidbits-4.jpg"
+              />
+            </div>
+            <div class="menu-text-box">
+              <h4 class="menu-item-name">Chicken Wings</h4>
+              <p class="menu-item-description">
+                Fresh hot Chicken Wings flame toasted with Secret Rub & Sauce
+              </p>
+            </div>
+            <div class="menu-price-box"><p class="menu-price">485 TK</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="guests" class="guest-section">
+        <h2 class="section-heading">
+          Our Guests
+          <hr class="border-bottom" />
+        </h2>
+
+        <div class="testimonial-box-top">
+          <div class="testimonial-box">
+            <figure
+              id="testimonial-box"
+              class="guest-testimonial-1 guest-testimonial-box"
+            >
+              <div class="testimonial-inner-box">
+                <h3 class="guest-name">Rafsan The ChotoBhai</h3>
+
+                <div class="guest-img-box">
+                  <img
+                    class="guest-img"
+                    alt="rafsan the chotobhai"
+                    src="img/guest-1.jpg"
+                  />
+                </div>
+
+                <div class="guest-introduction-box">
+                  <p class="guest-introduction">Food Vlogger</p>
+                </div>
+
+                <div class="guest-quote-box">
+                  <blockquote class="guest-quote">
+                    "Grill SteakHouse is a steak lover's paradise! The
+                    tenderness and flavor of their steaks are unparalleled. A
+                    must-visit for any food enthusiast!"
+                  </blockquote>
+                  <i class="fa-solid fa-quote-left quote-icon"></i>
+                </div>
+              </div>
+            </figure>
+
+            <figure class="guest-testimonial-2 guest-testimonial-box">
+              <div class="testimonial-inner-box">
+                <h3 class="guest-name">Shakib Al Hasan</h3>
+
+                <div class="guest-img-box">
+                  <img
+                    class="guest-img"
+                    alt="shakib al hasan"
+                    src="img/guest-2.jpg"
+                  />
+                </div>
+
+                <div class="guest-introduction-box">
+                  <p class="guest-introduction">Best cricket All-rounder</p>
+                </div>
+
+                <div class="guest-quote-box">
+                  <blockquote class="guest-quote">
+                    "I had such a great time at Grill SteakHouse! The food was
+                    amazing and the atmosphere was really nice. I can't wait to
+                    try their steaks again!"
+                  </blockquote>
+                  <i class="fa-solid fa-quote-left quote-icon"></i>
+                </div>
+              </div>
+            </figure>
+
+            <figure class="guest-testimonial-3 guest-testimonial-box test-box">
+              <div class="testimonial-inner-box">
+                <h3 class="guest-name">Gojo Satoru</h3>
+
+                <div class="guest-img-box">
+                  <img
+                    class="guest-img"
+                    alt="gojo satoru"
+                    src="img/guest-3.jpg"
+                  />
+                </div>
+
+                <div class="guest-introduction-box">
+                  <p class="guest-introduction">Sensei</p>
+                </div>
+
+                <div class="guest-quote-box">
+                  <blockquote class="guest-quote">
+                    "Grill SteakHouse is a true gem! Their steaks are always
+                    mouthwateringly delicious, the staffs are also incredibly
+                    welcoming. A must-visit for all steak lovers!"
+                  </blockquote>
+                  <i class="fa-solid fa-quote-left quote-icon"></i>
+                </div>
+              </div>
+            </figure>
+
+            <div class="dots"></div>
+          </div>
+
+          <button class="guest-btn guest-btn--left">
+            <i class="guest-btn-icon ph-bold ph-caret-left"></i>
+          </button>
+
+          <button class="guest-btn guest-btn--right">
+            <i class="guest-btn-icon ph-bold ph-caret-right"></i>
+          </button>
+        </div>
+      </section>
+
+      <section id="gallery" class="gallery-section container">
+        <h2 class="section-heading">
+          Gallery
+          <hr class="border-bottom" />
+        </h2>
+        <div class="gallery-box">
+          <div class="gallery-img-box">
+            <img
+              class="gallery-img"
+              src="img/gallery-1.jpg"
+              alt="gallery image 1"
+            />
+          </div>
+
+          <div class="gallery-img-box">
+            <img
+              class="gallery-img"
+              src="img/gallery-2.jpg"
+              alt="gallery image 2"
+            />
+          </div>
+
+          <div class="gallery-img-box">
+            <img
+              class="gallery-img"
+              src="img/gallery-3.jpg"
+              alt="gallery image 3"
+            />
+          </div>
+
+          <div class="gallery-img-box">
+            <img
+              class="gallery-img"
+              src="img/gallery-4.jpg"
+              alt="gallery image 4"
+            />
+          </div>
+
+          <div class="gallery-img-box">
+            <img
+              class="gallery-img"
+              src="img/gallery-5.jpg"
+              alt="gallery image 5"
+            />
+          </div>
+
+          <div class="gallery-img-box">
+            <img
+              class="gallery-img"
+              src="img/gallery-6.jpg"
+              alt="gallery image 6"
+            />
+          </div>
+
+          <div class="gallery-img-box">
+            <img
+              class="gallery-img"
+              src="img/gallery-7.jpg"
+              alt="gallery image 7"
+            />
+          </div>
+
+          <div class="gallery-img-box">
+            <img
+              class="gallery-img"
+              src="img/gallery-8.jpg"
+              alt="gallery image 8"
+            />
+          </div>
+
+          <div class="gallery-img-box">
+            <img
+              class="gallery-img"
+              src="img/gallery-9.jpg"
+              alt="gallery image 9"
+            />
+          </div>
+
+          <div class="gallery-img-box">
+            <img
+              class="gallery-img"
+              src="img/gallery-10.jpg"
+              alt="gallery image 10"
+            />
+          </div>
+
+          <div class="gallery-img-box">
+            <img
+              class="gallery-img"
+              src="img/gallery-11.jpg"
+              alt="gallery image 11"
+            />
+          </div>
+
+          <div class="gallery-img-box">
+            <img
+              class="gallery-img"
+              src="img/gallery-12.jpg"
+              alt="gallery image 12"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="reservation" class="reservation-section">
+        <h2 class="section-heading section-heading--reservation">
+          Make a Reservation
+          <hr class="border-bottom" />
+        </h2>
+
+        <div class="cta-container container">
+          <div class="cta">
+            <div class="cta-img-box" role="img" aria-label=""></div>
+
+            <div class="cta-text-box">
+              <h2 class="cta-heading">Book a table</h2>
+
+              <form
+                class="cta-form"
+                name="reservation"
+                data-netlify="true"
+                netlify
+              >
+                <div class="input-box">
+                  <label for="full-name">Full Name</label>
+                  <input
+                    class="custom-input"
+                    id="full-name"
+                    name="full-name"
+                    type="text"
+                    placeholder="Imran Hossain"
+                    required
+                  />
+                </div>
+
+                <div class="input-box">
+                  <label for="phone-number">Phone Number</label>
+                  <input
+                    class="custom-input"
+                    id="phone-number"
+                    name="phone-number"
+                    type="tel"
+                    placeholder="01531714332"
+                    required
+                  />
+                </div>
+
+                <div class="input-box input-box--last">
+                  <label for="table-seats">Table for how many people?</label>
+                  <select
+                    class="custom-input"
+                    id="table-seats"
+                    name="people-count"
+                    required
+                  >
+                    <option value="">Please choose one option :</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+
+                <button class="reservation-btn">Make Reservation</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-box container">
+          <div class="contact-box">
+            <p class="contact-heading contact-heading--main">Contact Us</p>
+
+            <div class="contact-option-box-top">
+              <div class="contact-option-box">
+                <div class="contact-option">
+                  <div class="contact-option-inner">
+                    <i class="contact-icon ph ph-phone"></i>
+                    <p class="contact-option-name">01531714332</p>
+                  </div>
+                  <a
+                    onclick="makeCall()"
+                    href="tel:01531714332"
+                    class="contact-btn"
+                    >Call Now</a
+                  >
+                </div>
+
+                <div class="contact-option contact-option--2">
+                  <div class="contact-option-inner">
+                    <i class="contact-icon ph ph-messenger-logo"></i>
+                    <p class="contact-option-name">
+                      facebook.com/grill-steakhouse
+                    </p>
+                  </div>
+
+                  <a
+                    onclick="newTab()"
+                    href="https://m.me/lmrannn/"
+                    target="_blank"
+                    class="contact-btn"
+                    >Message</a
+                  >
+                </div>
+                <div class="contact-option">
+                  <div class="contact-option-inner">
+                    <i class="contact-icon ph ph-envelope-simple"></i>
+                    <p class="contact-option-name">
+                      grill.steakhouse@gmail.com
+                    </p>
+                  </div>
+                  <a
+                    onclick="makeMail()"
+                    href="mailto:lmrannhhossainn@gmail.com"
+                    class="contact-btn"
+                    >Email Us</a
+                  >
+                </div>
+              </div>
+
+              <div class="address-hour-box">
+                <div class="address-box">
+                  <p class="contact-heading contact-heading--address">
+                    Address
+                  </p>
+                  <address>
+                    <p class="address">
+                      Cityscape Tower (13th Floor),<br />
+                      53, 1212 Gulshan Ave, Dhaka
+                    </p>
+                  </address>
+                </div>
+
+                <div class="hours-box">
+                  <p class="contact-heading contact-heading--hours">
+                    Business Hours
+                  </p>
+                  <p class="hours">Tuesday to Sunday : 11AM - 11PM</p>
+                  <p class="hours">Monday Closed *</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="map-box" fetchpriority="low">
+          <iframe
+            class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.9223611186003!2d90.41464927605888!3d23.785778887415805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c75a603a489f%3A0xfc20b08757257d27!2zQ2hhYXAgR2hvci0g4Kaa4Ka-4KaqIOCmmOCmsC1TaWduYXR1cmUgQnJhbmNoIEd1bHNoYW4!5e0!3m2!1sen!2sbd!4v1691569000302!5m2!1sen!2sbd"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-top-box container">
+        <div class="social-box">
+          <p class="social-heading">Stay Connected</p>
+          <p class="social-text">Follow us on social media channels</p>
+          <div class="social-icon-box">
+            <a
+              onclick="newTab2()"
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="social-icon"
+              ><i class="ph-bold ph-facebook-logo"></i
+            ></a>
+            <a
+              onclick="newTab3()"
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="social-icon"
+              ><i class="ph-bold ph-instagram-logo"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer-logo-box">
+          <a class="footer-logo-link" href="#">
+            <img
+              alt="steakhouse logo"
+              class="footer-logo"
+              src="img/nav-logo.png"
+            />
+          </a>
+        </div>
+
+        <div class="designer-box">
+          <p class="designed-by">
+            This website was created by <span>Imran Hossain</span>
+          </p>
+
+          <div class="designer-contact-box">
+            <p class="contact-designer">Contact me on</p>
+            <a
+              onclick="newTab4()"
+              href="https://www.facebook.com/lmrannn"
+              target="_blank"
+              class="designer-link"
+              ><i class="ph-bold ph-facebook-logo designer-icon"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <p class="copyright-text">
+        Copyright &copy; <span class="year">2023</span> - All right reserved by
+        Imran Hossain
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
